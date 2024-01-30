@@ -1,4 +1,4 @@
-# Compiling ROS interfaces
+# Wrapyfi ROS interfaces
 
 **WARNING**: These instructions are located in 
 [https://github.com/modular-ml/wrapyfi_ros_interfaces](https://github.com/modular-ml/wrapyfi_ros_interfaces)
@@ -12,6 +12,22 @@ or install using [Robostack](https://robostack.github.io/GettingStarted.html).
 
 - ROS Noetic
 - Python 3.6
+
+## Installation
+
+We recommend [compiling](#compiling) the Wrapyfi ROS interfaces rather than installing them. However, if ROS was installed locally (**not** within mamba/micromamba), 
+Then the Wrapyfi interfaces can be installed directly using APT ![ROS Package Index](https://img.shields.io/ros/v/noetic/wrapyfi_ros_interfaces)
+
+
+**APT (local Noetic only)** 
+```bash
+source /opt/ros/noetic/setup.bash
+sudo apt update
+sudo apt install ros-noetic-wrapyfi-ros-interfaces
+# test package: should return the audio message type for ROS
+rosmsg show ROSAudioMessage
+
+```
 
 ## Compiling
 
