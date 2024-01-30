@@ -16,7 +16,7 @@ or install using [Robostack](https://robostack.github.io/GettingStarted.html).
 ## Installation
 
 We recommend [compiling](#compiling) the Wrapyfi ROS interfaces rather than installing them. However, if ROS was installed locally (**not** within mamba/micromamba), 
-Then the Wrapyfi interfaces can be installed directly using APT ![ROS Package Index](https://img.shields.io/ros/v/noetic/wrapyfi_ros_interfaces)
+Then the Wrapyfi interfaces can be installed directly using APT [![ROS Package Index](https://img.shields.io/ros/v/noetic/wrapyfi_ros_interfaces)](https://index.ros.org/r/wrapyfi_ros_interfaces/#noetic)
 
 
 **APT (local Noetic only)** 
